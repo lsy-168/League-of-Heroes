@@ -1,0 +1,118 @@
+.quick-operation {
+    position: relative;
+
+    .opera-top {
+        position: relative;
+
+        .download {
+            display: block;
+            width: 330px;
+            height: 168px;
+            background: url('../images/btn-download.gif') no-repeat;
+            background-size: 100% 100%;
+            overflow: hidden;
+
+            &:hover {
+                filter: brightness(1.15);
+            }
+        }
+
+        .novice,
+        .receive {
+            position: absolute;
+            right: 0;
+            width: 110px;
+            height: 76px;
+            line-height: 76px;
+            text-align: center;
+            color: #FFF;
+            font-size: 14px;
+            font-weight: 700;
+            background-position: -197px -316px;
+
+            &:hover {
+                filter: brightness(1.15);
+            }
+        }
+
+        .novice {
+            top: 0;
+        }
+
+        .receive {
+            bottom: 0;
+        }
+    }
+
+    .opera-icons {
+        li {
+            float: left;
+            margin: 15px 14px 0 0;
+
+            &:nth-child(4n+4) {
+                margin-right: 0;
+            }
+
+            a {
+                display: block;
+                width: 102px;
+                height: 68px;
+                line-height: 68px;
+                text-align: center;
+                color: #424242;
+                font-size: 12px;
+                background: #FFF;
+
+                i {
+                    display: inline-block;
+                    margin: 0 2px;
+                    width: 22px;
+                    height: 20px;
+                    vertical-align: middle;
+
+                    &.icon-customer {
+                        background-position: -316px -12px;
+                    }
+
+                    &.icon-order {
+                        background-position: -219px -72px;
+                    }
+
+                    &.icon-game {
+                        background-position: -343px -12px;
+                    }
+
+                    &.icon-canyon {
+                        background-position: -193px -72px;
+                    }
+
+                    &.icon-cloud {
+                        background-position: -280px -125px;
+                    }
+
+                    &.icon-strategy {
+                        background-position: -371px -12px;
+                    }
+
+                    &.icon-universe {
+                        background-position: -274px -46px;
+                    }
+
+                    &.icon-weixin {
+                        background-position: -193px -46px;
+                    }
+                }
+
+                &:hover {
+                    color: #0da0b4;
+                    border-radius: 4px;
+                    box-shadow: 0 0 10px #ccc;
+
+                    i {
+                        animation: jump 1s both;
+                    }
+                }
+            }
+        }
+    }
+}

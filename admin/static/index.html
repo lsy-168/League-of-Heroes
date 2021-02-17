@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>从零基于H5/CSS3/JS高度还原“英雄联盟PC官网”</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- IMPORT CSS -->
+    <link rel="stylesheet/less" href="css/index.less">
+    <script src="css/less.min.js"></script>
+</head>
+
+<body>
+    <!-- 头部区域 -->
+    <header class="header-box bg-dark">
+        <!-- 遮罩层 -->
+        <div class="comm-head-mark"></div>
+        <!-- 头部栏 -->
+        <div class="comm-head w1300 clearfix">
+            <a href="https://lol.qq.com" class="logo float-l" title="英雄联盟官网">
+                <img src="images/logo-public.png" alt="英雄联盟官网">
+            </a>
+
+            <nav class="head-nav float-l">
+                <a class="item" href="https://lol.qq.com/data/info-heros.shtml" target="_blank">
+                    <span class="nav-title">游戏资料</span>
+                    <span class="nav-subtitle">GAME INFO</span>
+                </a>
+                <a class="item">
+                    <span class="nav-title">商城/合作</span>
+                    <span class="nav-subtitle">STORE</span>
+                </a>
+                <a class="item">
+                    <span class="nav-title">社区互动</span>
+                    <span class="nav-subtitle">COMMUNITY</span>
+                </a>
+                <a class="item" href="https://lpl.qq.com/" target="_blank">
+                    <span class="nav-title">赛事官网</span>
+                    <span class="nav-subtitle">ESPORTS</span>
+                </a>
+                <a class="item">
+                    <span class="nav-title">自助系统</span>
+                    <span class="nav-subtitle">SYSTEM</span>
+                </a>
+            </nav>
+
+            <div class="user-info float-r">
+                <div class="info-base">
+                    <a href="https://lol.qq.com/space/index.shtml" target="_blank" class="info-link sprit_top">
+                        <img src="images/default.png" class="center" alt="">
+                    </a>
+                    <span class="info-text">
+                        亲爱的召唤师，欢迎
+                        <a href="https://lol.qq.com/space/index.shtml" target="_blank">登录</a>
+                    </span>
+                </div>
+                <div class="info-detail">
+                    <div class="unlogin">
+                        <p>
+                            登录并且绑定大区后才可以查看您的具体信息哦
+                            <br>
+                            (包括战绩、资产、声望）
+                        </p>
+                        <p>官网个人信息显示略有延迟，请以游戏数据为准</p>
+                    </div>
+                    <a href="https://lol.qq.com/space/index.shtml" target="_blank" class="unlogin-link">
+                        进入个人中心
+                        <i class="comm-more-arrow sprit_comm"></i>
+                    </a>
+                </div>
+            </div>
+
+            <a href="https://lol.qq.com/app/index.html" class="app-normal sprit_top float-r" title="下载掌上英雄联盟">
+                <div class="app-detail">
+                    <img src="images/zm-qrcode.jpg" class="zm-qrcode" alt="掌盟App二维码">
+                    <p>扫码下载掌上英雄联盟</p>
+                    <img src="images/polo.gif" alt="魄罗" class="polo">
+                </div>
+            </a>
+
+            <a href="https://lol.qq.com/search/index.shtml" class="search-btn sprit_top float-r" title="搜索"></a>
+        </div>
+        <!-- 导航详情 -->
+        <div class="comm-head-nav-hover">
+            <ul class="hover-list w1300">
+                <li>
+                    <a href="https://lol.qq.com/download.shtml" target="_blank" class="hover-a">游戏下载</a>
+                    <a href="https://lol.qq.com/data/newbie-what.shtm" target="_blank" class="hover-a">新手指引</a>
+                    <a href="https://lol.qq.com/data/info-heros.shtml" target="_blank" class="hover-a">资料库</a>
+                    <a href="https://lol.qq.com/tft" target="_blank" class="hover-a">
+                        <i class="icon-new sprit_top"></i>
+                        云顶之弈
+                    </a>
+                    <a href="https://101.qq.com" target="_blank" class="hover-a">
+                        <i class="icon-new sprit_top"></i>
+                        攻略中心
+                    </a>
+                    <a href="https://lol.qq.com/nexus/pc" target="_blank" class="hover-a">开发者基地</a>
+                    <a href="https://lol.qq.com/act/a20171205hextech" target="_blank" class="hover-a">海克斯战利品库</a>
+                    <a href="https://yz.lol.qq.com" target="_blank" class="hover-a">英雄联盟宇宙</a>
+                </li>
+                <li>
+                    <a href="https://lol.qq.com/comm-htdocs/pay/new_index.htm" target="_blank" class="hover-a">点卷充值</a>
+                    <a href="https://daoju.qq.com/lol/" target="_blank" class="hover-a">
+                        <i class="icon-hot sprit_top"></i>
+                        道聚城
+                    </a>
+                    <a href="https://lolriotmall.qq.com" target="_blank" class="hover-a">周边商城</a>
+                    <a href="https://lol.qq.com/act/a20161011mvm/index.htm" target="_blank" class="hover-a">LOL桌游</a>
+                    <a href="https://cafe.qq.com/tpl/lol" target="_blank" class="hover-a">网吧特权</a>
+                    <a href="https://lol.qq.com/act/a20181124novel" target="_blank" class="hover-a">电竞小说</a>
+                    <a href="https://lol.qq.com/author" target="_blank" class="hover-a">
+                        <i class="icon-new sprit_top"></i>
+                        作者入住计划
+                    </a>
+                </li>
+                <li>
+                    <a href="https://lol.qq.com/act/a20180904community/page1.html" target="_blank"
+                        class="hover-a">官方社区</a>
+                    <a href="https://lol.qq.com/v/v2/index.shtml" target="_blank" class="hover-a">视频中心</a>
+                    <a href="https://bbs.lol.qq.com/forum.php" target="_blank" class="hover-a">官方论坛</a>
+                    <a href="https://lol.qq.com/act/a20160425wxlol" target="_blank" class="hover-a">官方微信</a>
+                    <a href="https://passport.weibo.com/visitor/visitor" target="_blank" class="hover-a">官方微博</a>
+                    <a href="https://tr.lol.qq.com" target="_blank" class="hover-a">玩家创作馆</a>
+                    <a href="https://lol.qq.com/act/a20180418yxny" target="_blank" class="hover-a">玩家服务</a>
+                    <a href="https://lol.qq.com/act/a20200319clash/index.html" target="_blank" class="hover-a">
+                        <i class="icon-new" sprit_top></i>
+                        LOL组队专区
+                    </a>
+                </li>
+                <li>
+                    <a href="https://lpl.qq.com/es/lpl/2021" target="_blank" class="hover-a">
+                        <i class="icon-hot sprit_top"></i>
+                        LPL职业联赛
+                    </a>
+                    <a href="https://lpl.qq.com/es/ldl/2021" target="_blank" class="hover-a">
+                        <i class="icon-hot sprit_top"></i>
+                        LDL发展联赛
+                    </a>
+                    <a href="https://lpl.qq.com/es/worlds/2020" target="_blank" class="hover-a">全球总决赛</a>
+                    <a href="https://lpl.qq.com/act/a20200707city/index.html" target="_blank"
+                        class="hover-a">城市英雄争霸赛</a>
+                    <a href="https://lpl.qq.com/act/a20201218allstar/" target="_blank" class="hover-a">全明星赛</a>
+                    <a href="https://lpl.qq.com/act/a20201208dmcup/index.html" target="_blank" class="hover-a">德玛西亚杯</a>
+                    <a href="https://lpl.qq.com/es/lcl/2020/index.html" target="_blank" class="hover-a">全国高校联赛</a>
+                    <a href="https://lpl.qq.com/act/a20200429match/index.html" target="_blank" class="hover-a">
+                        <i class="icon-new sprit_top"></i>
+                        云顶之弈公开赛
+                    </a>
+                </li>
+                <li>
+                    <a href="https://kf.qq.com/product/lol.html" target="_blank" class="hover-a">联系客服</a>
+                    <a href="https://lol.qq.com/act/a20200710transferzone/index.html" target="_blank" class="hover-a">
+                        <i class="icon-new sprit_top"></i>
+                        转区系统
+                    </a>
+                    <a href="https://lol.qq.com/act/a20151118fh/" target="_blank" class="hover-a">
+                        <i class="icon-hot sprit_top"></i>
+                        封号查询
+                    </a>
+                    <a href="https://lol.qq.com/act/a20200227logout/" target="_blank" class="hover-a">账号注销</a>
+                    <a href="https://lol.qq.com/act/a20190528lolscore/" target="_blank" class="hover-a">
+                        <i class="icon-new sprit_top"></i>
+                        信誉分系统
+                    </a>
+                    <a href="https://lol.qq.com/act/a20150326dqpd/" target="_blank" class="hover-a">服务器状态查询</a>
+                    <a href="https://lol.qq.com/act/a20171108ambient/index.html" target="_blank"
+                        class="hover-a">秩序殿堂</a>
+                    <a href="https://lol.qq.com/act/a20191210super/index.shtml" target="_blank" class="hover-a">峡谷之巅</a>
+                </li>
+            </ul>
+        </div>
+        <!-- 底部按钮组 -->
+        <a href="https://lol.qq.com/act/a20210129shanhai/index.html" class="act-link sprit_top" target="_blank"></a>
+        <div class="act-version w1300">
+            <span class="version-text">当前游戏版本：<em>Ver 11.2</em></span>
+            <a href="https://lol.qq.com/gicp/news/410/34169937.html" class="version-link" target="_blank">版本详情</a>
+        </div>
+    </header>
+
+    <!-- 主要区域 -->
+    <section class="main-box bg-light">
+        <div class="content w1300">
+            <!-- 轮播图 -->
+            <div class="swiper-container con-l con-h380 loading" id="swiper-container-home">
+                <div class="swiper-wrapper">
+                    <!-- <div class="swiper-slide">
+                        <a href="" target="_blank">
+                            <img src="images/active/banner1.jpeg" alt="">
+                        </a>
+                    </div> -->
+                </div>
+                <div class="swiper-pagination">
+                    <!-- <span class="active">2021福牛贺岁</span> -->
+                </div>
+            </div>
+
+            <!-- 新闻资讯 -->
+            <div class="news-box con-r con-h380 loading" id="news-box">
+                <div class="bind-box">
+                    <!-- <ul class="news-tab">
+                        <li class="active">综合</li>
+                    </ul>
+                    <div class="news-content">
+                        <ul class="active">
+                            <li class="item sprit_index">
+                                <a class="text-clip" href="" target="_blank">2021福牛贺岁</a>
+                            </li>
+                            <li class="item">
+                                <span class="item-type">新闻</span>
+                                <a class="text-clip" href="" target="_blank">游戏玩法感想：1月29日</a>
+                                <span class="item-time">01-30</span>
+                            </li>
+                        </ul>
+                    </div> -->
+                </div>
+                <a href="https://lol.qq.com/news/index.shtml" target="_blank" class="news_more">
+                    <span>阅读更多</span>
+                    <span>最新资讯</span>
+                    <i class="comm-more-arrow sprit_comm"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- IMPORT JS -->
+    <script src="js/main.min.js"></script>
+    <script type="module" src="js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,187 @@
+1. 首屏轮播图数据
+  URL：/home_banner
+  METHOD：GET
+  PARAMS：无
+  RETURN：
+    [{
+        "title": 标题,
+        "href": 跳转地址,
+        "pic": 图片地址
+    },...]
+
+2. 首页新闻数据
+  URL：/news_item
+  METHOD：GET
+  PARAMS：无
+  RETURN：
+    [{
+        "name": "综合/公告/赛事/...",
+        "data": [{
+            "title": 标题,
+            "href": 跳转地址,
+            "time": 时间,
+            "type": 标记
+        },...]
+    },...]
+
+3. 热门活动
+  URL：/hot_events
+  METHOD：GET
+  PARAMS：无
+  RETURN：
+    [{
+        "name": "正在进行/商城特惠/长期活动/...",
+        "data": [{
+            "title": "山海绘卷",
+            "href": "",
+            "pic": "",
+            "desc": "妙笔舞墨，绘定乾坤",
+            "overTime": "14天后结束",
+            "explain": "2021-01-29 - 2021-02-12",
+            "isNew": true
+        },...]
+    },...]
+
+4. 热门皮肤
+  URL：/skin
+  METHOD：GET
+  PARAMS：无
+  RETURN：
+    [{
+        "skin": "光明&amp;黑暗 骑士",
+        "pic": "",
+        "href": ""
+    },...]
+
+5. 周免
+  URL：/week_free
+  METHOD：GET
+  PARAMS：无
+  RETURN：
+    [{
+        "name": "瑞兹",
+        "href": "",
+        "pic": ""
+    },...]
+
+6. 最新视频
+  URL：/latest_video
+  METHOD：GET
+  PARAMS：无
+  RETURN：
+    [{
+        "name": "推荐/官方/娱乐/...",
+        "data": [{
+            "id": "6311026437806849793",
+            "title": "TOP5：TheShy炫目攻势 展翅遮白日",
+            "playTimes": "1.9万次播放",
+            "updateTime": "22小时前",
+            "videoLength": "03:03",
+            "pic": "",
+            "background": [ 
+                鼠标滑过的幻灯片照片，有的没有
+                "https://puui.qpic.cn/vpic/0/v32248jj56x_640_360_1.jpg/0",
+                ...
+            ]
+        },...]
+    },...]
+
+
+7. 热门专辑
+  URL：/hit_album
+  METHOD：GET
+  PARAMS：无
+  RETURN：
+    [{
+        "name": "周一/周二/周三/...",
+        "data": [{
+            "id": "14058807076289388337",
+            "pic": "",
+            "title": "小鱼Top5",
+            "description": "汇集英雄联盟最顶级精彩操作视频。",
+            "updateTime": "2021-01-22更新",
+            "authorPic": "",
+            "author": "LOL解说小鱼"
+        },...]
+    },...]
+
+8. 赛事中心
+  URL：/match
+  METHOD：GET
+  PARAMS：无
+  RETURN：
+    [{
+        "state": "已结束/未开始",
+        "matchTime": "1-09 17:00",
+        "type": "2021职业联赛",
+        "schedule": "春季赛常规赛 第一周 BO3",
+        "homeLogo": "",
+        "homeName": "TES",
+        "homeScore": "0",
+        "guestLogo": "",
+        "guestName": "SN",
+        "guestScore": "2",
+        "href": "" 视频集锦地址
+    },...]
+
+9. 每周最佳阵容
+  URL：/best_team
+  METHOD：GET
+  PARAMS：无
+  RETURN：
+    [{
+        "player": "Nuguri",
+        "pic": "",
+        "rankRole": "p-top",
+        "teamLogo": ""
+    },...]
+
+10. 积分榜
+  URL：/league_table
+  METHOD：GET
+  PARAMS：无
+  RETURN：
+    [{
+        "ranking": "1",
+        "club": "EDG",
+        "clubLogo": "",
+        "win": "5/0",
+        "score": "5"
+    },...]
+
+11. 英雄资料
+  URL：/hero_info
+  METHOD：GET
+  PARAMS：无
+  RETURN：
+    [{
+        "type": "mage", 
+           mage->'法师' fighter->'战士'  tank->'坦克'  assassin->'刺客'  support->'辅助'  marksman->'射手'
+        "hero": "黑暗之女",
+        "heroLogo": "",
+        "href": ""
+    },...]
+
+12. FANART创作管
+  URL：/creation_hall
+  METHOD：GET
+  PARAMS：无
+  RETURN：
+    [{
+        "pic": "",
+        "title": "血月之主——劫",
+        "href": "",
+        "author": "不语",
+        "authorHref": "",
+        "fabulous": "12"
+    },...]
+
+13. 合作媒体
+  URL：/asso_media
+  METHOD：GET
+  PARAMS：无
+  RETURN：
+    [{
+        "title": "兔玩",
+        "href": ""
+    },...]

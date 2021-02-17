@@ -1,0 +1,347 @@
+.head-box {
+    position: relative;
+    height: 360px;
+    background: url('../images/top_banner.jpeg') no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+    /* 顶部遮着层 */
+    .comm-head-mark,
+    .comm-head {
+        height: 78px;
+    }
+
+    .comm-head-mark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        width: 100%;
+        background: url('../images/dark-jianbian-repeatx-0.png') repeat-x;
+        background-size: 1px 100%;
+    }
+
+    /* 顶部 */
+    .comm-head {
+        position: relative;
+        z-index: 11;
+
+        .head-logo,
+        .head-nav,
+        .head-search,
+        .head-weixin,
+        .head-person {
+            padding-top: 10px;
+            float: left;
+        }
+
+        .head-search,
+        .head-weixin,
+        .head-person {
+            float: right;
+        }
+
+        // LOGO
+        .head-logo {
+            width: 167px;
+            height: 60px;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        // NAV
+        .head-nav {
+            padding-top: 15px;
+            margin-left: 20px;
+            height: 100%;
+            display: flex;
+            justify-content: flex-start;
+
+            .item {
+                width: 140px;
+                height: 100%;
+
+                .nav-title,
+                .nav-subtitle {
+                    display: block;
+                    color: #FFF;
+                    text-align: center;
+                    letter-spacing: 1px;
+                }
+
+                .nav-title {
+                    font-size: 18px;
+                    line-height: 28px;
+                }
+
+                .nav-subtitle {
+                    color: #AEAEAE;
+                    font-size: 11px;
+                    line-height: 18px;
+                }
+            }
+        }
+
+        // SEARCH
+        .head-search {
+            margin-top: 25px;
+            margin-right: 40px;
+            padding-top: 0;
+            width: 21px;
+            height: 21px;
+            background-position: -381px -39px;
+        }
+
+        // WEIXIN
+        .head-weixin {
+            position: relative;
+            margin-top: 23px;
+            margin-right: 40px;
+            padding-top: 0;
+            width: 16px;
+            height: 24px;
+            background-position: -303px -84px;
+
+            .wx-detail {
+                display: none;
+                position: absolute;
+                top: 40px;
+                left: 50%;
+                margin-left: -85px;
+                padding: 15px 0;
+                width: 170px;
+                background: rgba(0, 0, 0, .7);
+
+                // 箭头
+                &:before {
+                    content: '';
+                    .center-x;
+                    top: -20px;
+                    padding: 0;
+                    width: 0;
+                    height: 0;
+                    font-size: 0;
+                    border: 10px solid transparent;
+                    border-bottom-color: rgba(0, 0, 0, .7);
+                }
+
+                .zm-qrcode {
+                    margin: 0 auto;
+                    width: 130px;
+                    height: 130px;
+                    border: 5px solid #FFF;
+                    border-radius: 10px;
+                }
+
+                p {
+                    margin-top: 10px;
+                    text-align: center;
+                    color: #F5D185;
+                    font-size: 12px;
+                }
+
+                .polo {
+                    position: absolute;
+                    right: -25px;
+                    bottom: -10px;
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+
+            &:hover {
+                .wx-detail {
+                    display: block;
+                    animation: headMove .2s both;
+                }
+            }
+        }
+        
+        // PERSON
+        .head-person {
+            position: relative;
+
+            .person-base {
+                position: relative;
+                z-index: 11;
+                font-size: 0;
+
+                .base-logo,
+                .base-text {
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+
+                .base-logo {
+                    width: 48px;
+                    height: 48px;
+                    background-position: -216px -117px;
+
+                    img {
+                        margin-top: 6px;
+                        margin-left: 5px;
+                        width: 80%;
+                        height: 80%;
+                        border-radius: 50%;
+                    }
+                }
+
+                .base-text {
+                    margin-left: 10px;
+                    color: #FFF;
+                    font-size: 16px;
+                }
+            }
+
+            .person-detail {
+                display: none;
+                position: absolute;
+                top: 0;
+                left: 50%;
+                z-index: 10;
+                margin-left: -155px;
+                padding-top: 78px;
+                width: 310px;
+                background: rgba(0, 0, 0, .7);
+
+                .detail-text {
+                    padding: 0 20px;
+
+                    p {
+                        margin-top: 15px;
+                        line-height: 20px;
+                        text-align: center;
+                        color: #888787;
+                        font-size: 12px;
+                    }
+                }
+
+                .detail-more {
+                    display: block;
+                    margin-top: 20px;
+                    height: 44px;
+                    line-height: 44px;
+                    text-align: center;
+                    color: #FFF;
+                    font-size: 16px;
+                    letter-spacing: 1px;
+                    background: #000;
+                }
+            }
+
+            &:hover {
+                .person-detail {
+                    display: block;
+                    animation: headMove .2s both;
+                }
+            }
+        }
+    }
+
+    /* 导航详情 */
+    .nav-detail {
+        /* transform: translateY(-10px);
+        transition: transform .2s; */
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 9;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, .7);
+
+        .detail-con {
+            padding-left: 187px;
+            padding-top: 78px;
+            display: flex;
+            justify-content: flex-start;
+
+            li {
+                width: 140px;
+
+                a {
+                    display: block;
+                    line-height: 30px;
+                    text-align: center;
+                    color: #FFF;
+                    font-size: 14px;
+
+                    // a:hover{}
+                    &:hover {
+                        color: #E9C06C;
+                    }
+
+                    i {
+                        display: inline-block;
+                        width: 14px;
+                        height: 14px;
+                        vertical-align: middle;
+
+                        &.icon-hot {
+                            background-position: -347px -84px;
+                        }
+
+                        &.icon-new {
+                            background-position: -381px -65px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /* 底部按钮 */
+    .background-btn {
+        bottom: 32px;
+        width: 160px;
+        height: 40px;
+        background-position: -216px -39px;
+    }
+
+    .author-box {
+        margin-top: 220px;
+        text-align: right;
+        font-size: 0;
+
+        span,
+        .author-link {
+            display: inline-block;
+            margin: 0 5px;
+            vertical-align: middle;
+        }
+
+        span {
+            color: #888787;
+            font-size: 14px;
+
+            &:nth-of-type(2) {
+                color: #F5D185;
+            }
+        }
+
+        .author-link {
+            padding: 0 15px;
+            height: 22px;
+            line-height: 20px;
+            color: #F5D185;
+            font-size: 12px;
+            border: 1px solid #F5D185;
+            background: rgba(0, 0, 0, .7);
+        }
+    }
+
+    /* 头部动画 */
+    @keyframes headMove {
+        0% {
+            transform: translateY(-10px);
+        }
+
+        100% {
+            transform: translateY(0px);
+        }
+    }
+}

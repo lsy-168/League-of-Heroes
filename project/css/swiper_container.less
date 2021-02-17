@@ -1,0 +1,59 @@
+.swiper-container {
+    position: relative;
+
+    .swiper-wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: left .3s;
+
+        display: flex;
+        justify-content: flex-start;
+        width: 4800px; //需要后期动态计算宽度
+        height: 340px;
+
+        .swiper-slide {
+            width: 800px;
+            height: 100%;
+
+            a {
+                display: block;
+                height: 100%;
+
+                img {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+    .swiper-pagination {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+
+        span {
+            flex: 1 1 auto;
+            box-sizing: border-box;
+            padding: 0 10px;
+            text-align: center;
+            height: 40px;
+            line-height: 40px;
+            color: #424242;
+            font-size: 14px;
+            background: #E3E2E2;
+            .text-clip;
+
+            &.active {
+                color: #AB8E66;
+                background: #F7F6F6;
+                border-bottom: 2px solid #CEA861;
+            }
+        }
+    }
+}

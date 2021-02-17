@@ -1,0 +1,40 @@
+.main-box {
+    padding: 40px 0 80px 0;
+
+    .content {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+
+        &:nth-child(1) {
+            margin-top: 0;
+        }
+
+        .con-l,
+        .con-r {
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+
+        .con-l {
+            width: 800px;
+        }
+
+        .con-r {
+            width: 450px;
+        }
+
+        .con-h380 {
+            height: 380px;
+        }
+
+        .con-h335 {
+            height: 335px;
+        }
+    }
+}
+
+@import './swiper_container.less';
+@import './news-box.less';
+@import './hot_events.less';
+@import './quick_operation.less';

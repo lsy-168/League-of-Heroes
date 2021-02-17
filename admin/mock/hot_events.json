@@ -1,0 +1,106 @@
+[{
+    "name": "正在进行",
+    "data": [{
+        "title": "山海绘卷",
+        "href": "https://lol.qq.com/act/a20210129shanhai/index.html?e_code=500135",
+        "pic": "https://ossweb-img.qq.com/images/clientpop/act/lol_1611890224_uploadnewsImg.jpg",
+        "desc": "妙笔舞墨，绘定乾坤",
+        "overTime": "14天后结束",
+        "explain": "2021-01-29 - 2021-02-12",
+        "isNew": true
+    }, {
+        "title": "2021福牛贺岁",
+        "href": "https://lol.qq.com/act/a20210122lunarpresent/index.html?e_code=500135",
+        "pic": "https://ossweb-img.qq.com/images/clientpop/act/lol_1611287775_uploadnewsImg.jpg",
+        "desc": "金牛宝箱优先获得未解锁道具",
+        "overTime": "30天后结束",
+        "explain": "2021-01-22 - 2021-02-28",
+        "isNew": false
+    }, {
+        "title": "破败军团",
+        "href": "https://lol.qq.com/act/a20210122ruined/index.html?e_code=500135",
+        "pic": "https://ossweb-img.qq.com/images/clientpop/act/lol_1611284290_uploadnewsImg.jpg",
+        "desc": "王刃所向 军团所往",
+        "overTime": "7天后结束",
+        "explain": "2021-01-22 - 2021-02-05",
+        "isNew": false
+    }, {
+        "title": "阿卡丽的黑金商店",
+        "href": "https://lol.qq.com/act/a20210115akl/index.html?e_code=500135",
+        "pic": "https://ossweb-img.qq.com/images/clientpop/act/lol_1610679332_uploadnewsImg.jpg",
+        "desc": "获取专属折扣",
+        "overTime": "今天结束",
+        "explain": "2021-01-15 - 2021-01-29",
+        "isNew": false
+    }]
+}, {
+    "name": "商城特惠",
+    "data": [{
+        "title": "精选皮肤限时5折",
+        "href": "https://lol.qq.com/act/a20210122sale/index.html?e_code=500135",
+        "pic": "https://ossweb-img.qq.com/images/clientpop/act/lol_1611889186_uploadnewsImg.jpg",
+        "desc": "牛气冲天迎新春 25款精选皮肤限时销售",
+        "overTime": "7天后结束",
+        "explain": "2021-01-29 - 2021-02-05",
+        "isNew": true
+    }, {
+        "title": "金克丝联名手办",
+        "href": "https://lolriotmall.qq.com/detail.shtml?id=19377&amp;ADTAG=lolriotmall.pc.lolhdzx.ad?e_code=500135",
+        "pic": "https://ossweb-img.qq.com/images/clientpop/act/lol_1609154699_uploadnewsImg.jpg",
+        "desc": "英雄联盟 x GSAS联名粘土人 金克丝预定开启。",
+        "overTime": "1天后结束",
+        "explain": "2020-12-28 - 2021-01-30",
+        "isNew": false
+    }, {
+        "title": "奥术师 佐伊 至臻",
+        "href": "https://lol.qq.com/act/a20171205hextech/?e_code=500135",
+        "pic": "https://ossweb-img.qq.com/images/clientpop/act/lol_1594606026_uploadnewsImg.jpg",
+        "desc": "100至臻点（2020）兑换",
+        "overTime": "今天结束",
+        "explain": "2020-07-10 - 2021-01-29",
+        "isNew": false
+    }, {
+        "title": "转区服务限时半价",
+        "href": "https://lol.qq.com/act/a20200710transferzone/index.html?e_code=500135",
+        "pic": "https://ossweb-img.qq.com/images/clientpop/act/lol_1610086281_uploadnewsImg.jpg",
+        "desc": "新赛季，新的征程",
+        "overTime": "已结束",
+        "explain": "2021-01-08 - 2021-01-22",
+        "isNew": false
+    }]
+}, {
+    "name": "长期活动",
+    "data": [{
+        "title": "【峡谷之巅】招募令",
+        "href": "https://lol.qq.com/act/a20210118invite/index.html?e_code=500135",
+        "pic": "https://ossweb-img.qq.com/images/clientpop/act/lol_1611298415_uploadnewsImg.jpg",
+        "desc": "征集优质攻略作品，奖励丰厚！",
+        "overTime": "长期活动",
+        "explain": "开启时间: 2021-01-22",
+        "isNew": false
+    }, {
+        "title": "K/DA系列 小小英雄",
+        "href": "https://lol.qq.com/act/a20201030kda/index.html?e_code=500135#cont8",
+        "pic": "https://ossweb-img.qq.com/images/clientpop/act/lol_1605435843_uploadnewsImg.jpg",
+        "desc": "使用点券可在客户端直接购买各形态1星小小英雄",
+        "overTime": "长期活动",
+        "explain": "开启时间: 2020-11-13",
+        "isNew": false
+    }, {
+        "title": "LOL组队专区",
+        "href": "https://lol.qq.com/act/a20200319clash/index.html?e_code=500135",
+        "pic": "https://ossweb-img.qq.com/images/clientpop/act/lol_1595328110_uploadnewsImg.jpg",
+        "desc": "无兄弟，不游戏；兄弟没空？何不妨多找几个，一起组战召唤师峡谷~冲鸭！",
+        "overTime": "长期活动",
+        "explain": "开启时间: 2020-07-21",
+        "isNew": false
+    }, {
+        "title": "英雄联盟：永恒星碑",
+        "href": "https://lol.qq.com/act/a20200529eternals/index.html?e_code=500135",
+        "pic": "https://ossweb-img.qq.com/images/clientpop/act/lol_1591017469_uploadnewsImg.jpg",
+        "desc": "即刻解锁，记录你的英雄精彩时刻",
+        "overTime": "长期活动",
+        "explain": "开启时间: 2020-05-29",
+        "isNew": false
+    }]
+}]
